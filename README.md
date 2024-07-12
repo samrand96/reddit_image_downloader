@@ -22,13 +22,26 @@ pip install praw requests
 
 3. Register a Reddit application at https://www.reddit.com/prefs/apps to get your `client_id` and `client_secret`.
 4. Update the script `reddit_image_scraper.py` with your Reddit application details and Reddit account credentials.
+5. Configure the Script: Fill in your Reddit API credentials (`client_id`, `client_secret`, `user_agent`, `username`, and `password`) directly into the script. 
+
+## Register a Reddit Application
+1. Go to https://www.reddit.com/prefs/apps
+2. Scroll down to the bottom and click on "Create App" or "Create Another App".
+3. Fill in the details:
+   Name: Your app’s name.
+   Application Type: Choose "script".
+   Description: Provide a brief description.
+   About URL: You can leave this blank.
+   Permissions: Set to "read".
+   Redirect URI: http://localhost:8080 (standard for local testing)
+4. Click "Create app".
 
 ## Usage
 
 Run the script from the command line, specifying the Reddit username and optionally the number of threads and the folder to save images:
 
 ```
-python reddit_image_scraper.py username --threads 20 --folder downloaded_images
+python reddit.py username --threads 20 --folder downloaded_images
 ```
 
 
