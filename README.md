@@ -28,13 +28,13 @@ pip install praw requests
 1. Go to https://www.reddit.com/prefs/apps
 2. Scroll down to the bottom and click on "Create App" or "Create Another App".
 3. Fill in the details:
-   Name: Your app’s name.
-   Application Type: Choose "script".
-   Description: Provide a brief description.
-   About URL: You can leave this blank.
-   Permissions: Set to "read".
-   Redirect URI: http://localhost:8080 (standard for local testing)
-4. Click "Create app".
+- Name: Your app’s name.
+- Application Type: Choose "script".
+- Description: Provide a brief description.
+- About URL: You can leave this blank.
+- Permissions: Set to "read".
+- Redirect URI: http://localhost:8080 (standard for local testing)
+5. Click "Create app".
 
 ## Usage
 
