@@ -16,9 +16,9 @@ This tool downloads all images posted by a specified Reddit user.
 1. Install Python 3 and pip (Python package installer).
 2. Install the required packages:
 
-'''
+```
 pip install praw requests
-'''
+```
 
 3. Register a Reddit application at https://www.reddit.com/prefs/apps to get your `client_id` and `client_secret`.
 4. Update the script `reddit_image_scraper.py` with your Reddit application details and Reddit account credentials.
@@ -27,9 +27,9 @@ pip install praw requests
 
 Run the script from the command line, specifying the Reddit username and optionally the number of threads and the folder to save images:
 
-'''
+```
 python reddit_image_scraper.py username --threads 20 --folder downloaded_images
-'''
+```
 
 
 ### Arguments
